@@ -101,6 +101,65 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Testimonials Section */}
+      <section className="bg-[#fefcfb] py-20 px-4">
+      <div className="max-w-6xl mx-auto text-center">
+        <h2 className="text-3xl font-bold text-[#7ca982] mb-6">What Our Users Say</h2>
+        <p className="text-gray-600 mb-12 text-base sm:text-lg">
+          Real couples. Real stories. Real love.
+        </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {/* Testimonial 1 */}
+          <div className="bg-white border border-[#d6eadd] rounded-xl p-6 shadow-sm relative">
+            <div className="absolute top-0 left-6 -mt-6 w-12 h-12 rounded-full overflow-hidden border-2 border-white shadow-md">
+              <img
+                src="/templates/classic-gold.jpg"
+                alt="Riya & Aman"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <p className="text-sm text-gray-700 mt-6 italic">
+              “It was so easy to use! I got my dream card in 5 minutes.”
+            </p>
+            <div className="text-[#f4c150] mt-3">★★★★★</div>
+            <h4 className="text-sm font-semibold text-[#4a4a4a] mt-2">Riya & Aman</h4>
+          </div>
+
+          {/* Testimonial 2 */}
+          <div className="bg-white border border-[#d6eadd] rounded-xl p-6 shadow-sm relative">
+            <div className="absolute top-0 left-6 -mt-6 w-12 h-12 rounded-full overflow-hidden border-2 border-white shadow-md">
+              <img
+                src="/templates/classic-gold.jpg"
+                alt="Megha & Arjun"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <p className="text-sm text-gray-700 mt-6 italic">
+              “I loved the pastel themes — so different from traditional invites!”
+            </p>
+            <div className="text-[#f4c150] mt-3">★★★★★</div>
+            <h4 className="text-sm font-semibold text-[#4a4a4a] mt-2">Megha & Arjun</h4>
+          </div>
+
+          {/* Testimonial 3 */}
+          <div className="bg-white border border-[#d6eadd] rounded-xl p-6 shadow-sm relative">
+            <div className="absolute top-0 left-6 -mt-6 w-12 h-12 rounded-full overflow-hidden border-2 border-white shadow-md">
+              <img
+                src="/templates/classic-gold.jpg"
+                alt="Simran & Dev"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <p className="text-sm text-gray-700 mt-6 italic">
+              “We shared the card on WhatsApp and got amazing reactions. Love it!”
+            </p>
+            <div className="text-[#f4c150] mt-3">★★★★☆</div>
+            <h4 className="text-sm font-semibold text-[#4a4a4a] mt-2">Simran & Dev</h4>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
     </>
